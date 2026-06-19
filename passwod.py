@@ -1,6 +1,6 @@
 import re
 
-print("🔐 Password Strength Checker")
+print("Password Strength Checker")
 password = input("Enter your password: ")
 
 # Check rules
@@ -23,8 +23,8 @@ rules_passed = sum([length_ok, has_number, has_upper, has_lower, has_symbol])
 
 print("\nOverall Password Strength:")
 if rules_passed == 5:
-    print("✅ Strong Password 💪")
+    print("✅ Strong Password ")
 elif rules_passed >= 3:
-    print("🟡 Medium Password 🤔")
+    print("🟡 Medium Password")
 else:
-    print("❌ Weak Password 😟")
+    print("❌ Weak Password ")
